@@ -1,21 +1,4 @@
-/* * {
-	position: relative;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
 
-html,
-body {
-	height: 100%;
-}
-
-body {
-	background: #000000;
-	color: #cccccc;
-} */
 
 .component {
 	position: relative;
@@ -23,7 +6,8 @@ body {
 	height: 9em;
 	/* background: rgba(0,0,0,0.05); */
 	font-family: 'Lato', Arial, sans-serif;
-	color: #fff;
+	color: #B0B0B0;
+	
 }
 
 .component > h2 {
@@ -36,7 +20,7 @@ body {
 	font-weight: 300;
 	font-style: italic;
 	font-size: 12em;
-	opacity: 0.1;
+	color: #E0E0E0;
 	cursor: default;
 }
 @media only screen and (max-device-width: 480px) {
@@ -46,7 +30,7 @@ body {
 		height: 4em;
 		/* background: rgba(0,0,0,0.05); */
 		font-family: 'Lato', Arial, sans-serif;
-		color: #fff;
+		color: #E0E0E0;
 	}
 	
 	.component > h2 {
@@ -59,7 +43,7 @@ body {
 		font-weight: 300;
 		font-style: italic;
 		font-size: 4em;
-		opacity: 0.1;
+		color: #E0E0E0;
 		cursor: default;
 	}
 }
