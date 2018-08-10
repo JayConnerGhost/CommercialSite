@@ -62,16 +62,65 @@ color:black;
     min-height: 25px;
     max-height: 50px;
     width:100%;
-    background-color: #2e2e2e; 
+    background-color: #f8f5f0 ; 
     /* font-size: 11px; */
     margin-top: auto;
     flex-shrink: 0;
     text-align: right;
   }
+  .footer > button{
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+  }
+
+
   i { 
       font-size: 38px;
       padding-left: 5px;
       padding-right:5px;
       padding-top: 5px;
-
+    
      }
+
+    #tech-images > img
+    {
+      padding-left: 5px;
+      padding-right:5px;
+      padding-top: 5px;
+    }
+    
+
+    .bw {
+        -webkit-filter: contrast(250) !important;
+        -moz-filter: contrast(250) !important;
+        -ms-filter: contrast(250) !important;
+        filter: contrast(250) !important;
+
+        -webkit-filter: grayscale(1) !important;
+        -moz-filter: grayscale(1) !important;
+        -ms-filter: grayscale(1) !important;
+        filter: grayscale(1) !important;
+       
+    }
+
+    #emailModal {
+        /* max-height: calc(100% - 100px); */
+        position: fixed;
+          top: 20%;
+     }
+
+    @media only screen and (max-device-width: 480px) {
+        #tech-images >img
+        {
+           width:50px;
+           height: 50px;
+        }
+
+        #emailModal
+        {
+            position: fixed;
+            top: 10%;
+        }
+    }
