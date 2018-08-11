@@ -1,7 +1,4 @@
 
-$( document ).ready(){
-    document.getElementById("contact-form").target = "_blank"
-}
 function openFacebookWin() {
     window.open("https://www.facebook.com/jay.conner.73157");
 }
