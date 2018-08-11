@@ -4,5 +4,5 @@ function openFacebookWin() {
 }
 //https://mobile.twitter.com/JayMart94769236
 function openTwitterWin() {
-    window.open("https://mobile.twitter.com/JayMart94769236");
+    window.open("https://mobile.twitter.com/GhosttkTrinity");
 }
