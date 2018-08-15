@@ -13,7 +13,27 @@
     <link rel="stylesheet" type="text/css" href="./cv.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <script src="../js/modernizr-2.6.2.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/pages.css" />
+    <!-- display hack -->
 
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+
+            $("a").click(function(event) {
+                event.preventDefault();
+                linkLocation = this.href;
+                $("body").fadeOut(500, redirectPage);
+            });
+
+            function redirectPage() {
+                window.location = linkLocation;
+            }
+        });
+    </script>
+    <!-- end display hack-->
     <!--dev notes 
 1. add contact form , from base template -> https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form
 -->
@@ -37,7 +57,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">Home
+                            <a class="nav-link" href="../index.html">Home
 							
 							</a>
                         </li>
@@ -46,7 +66,7 @@
                                 <span class="sr-only">(current)</span> CV</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Training</a>
+                            <a class="nav-link" href="../Training/training.html">Training</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
@@ -473,7 +493,6 @@
         </div>
 
         <script src="../js/polyfills.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="../js/functional.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.js"></script>
         <script src="../js/emailValidator.js"></script>
