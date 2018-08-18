@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
+<noscript><META HTTP-EQUIV="Refresh" CONTENT="0;URL=../ShowErrorPage.html"></noscript>
 
 <head>
 
@@ -15,25 +16,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <script src="../js/modernizr-2.6.2.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/pages.css" />
-    <!-- display hack -->
+    <link rel="stylesheet" type="text/css" href="../css/pages.css" />
 
-
-    <script type="text/javascript">
-        $(document).ready(function() {
-
-            $("a").click(function(event) {
-                event.preventDefault();
-                linkLocation = this.href;
-                $("body").fadeOut(500, redirectPage);
-            });
-
-            function redirectPage() {
-                window.location = linkLocation;
-            }
-        });
-    </script>
-    <!-- end display hack-->
     <!--dev notes 
 1. add contact form , from base template -> https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form
 -->
@@ -61,19 +45,18 @@
 							
 							</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item ">
                             <a class="nav-link" href="../CV/cv.html">
-                                <span class="sr-only">(current)</span> CV</a>
+                                CV</a>
+                        </li>
+                        <li class="nav-item" active>
+                            <a class="nav-link" href="../Training/training.html">
+                                <span class="sr-only">(current)</span>Training</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../Training/training.html">Training</a>
+                            <a class="nav-link" href="../CONTACT/contact.html">Contact</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
+                       
                     </ul>
                 </div>
             </nav>
@@ -86,7 +69,75 @@
                 </heading>
 
                 <section>
-                    <!-- content-->
+                    <header>Training i have recently undertaken</header>
+                    <detail>
+                        <strong><a href="https://www.udemy.com/">Udemy</a></strong>
+                        <ul>
+                            <li>
+                                Meteor and React for Realtime Apps
+                            </li>
+                            <li>
+                                Hacking with macOS - Build 18 Desktop Apps with Swift 4
+                            </li>
+                            <li>
+                                React 16 - The Complete Guide
+                            </li>
+                            <li>
+                                The Modern JavaScript Bootcamp (2018)
+                            </li>
+                            <li>
+                                Nmap: Network Security Scanning Basics &amp; Advanced Techniques
+                            </li>
+                            <li>
+                                Vim Text Editor - Learn in 10 steps, for beginners.
+                            </li>
+                            <li>
+                                Complete Python Bootcamp: Go from zero to hero in Python
+                            </li>
+                            <li>
+                                Mastering Python - Networking and Security
+                            </li>
+                            <li>
+                                Learn the Methods of Facebook hacking in Ethical Way
+                            </li>
+                            <li>
+                                Build an Advanced Keylogger using C++ for Ethical Hacking!
+                            </li>
+                            <li>
+                                Learn Penetration Testing from Scratch with METASPLOIT
+                            </li>
+                            <li>
+                                Learn Network Hacking From Scratch (WiFi &amp; Wired)
+                            </li>
+                            <li>
+                                Learn Hacking Using Android From Scratch
+                            </li>
+                            <li>
+                                IT Surveillance and Computer Forensics from Scratch
+                            </li>
+                            <li>
+                                The Complete Wireshark Course: Go from Beginner to Advanced!
+                            </li>
+                            <li>
+                                The Complete Ethical Hacking Course: Beginner to Advanced!
+                            </li>
+
+                        </ul>
+                        <strong><a href="http://meteortips.com">http://meteortips.com</a></strong>
+                        <ul>
+                            <li>Your First Meteor Application</li>
+                            <li>Your Second Meteor Application</li>
+                        </ul>
+                        <strong><a href="https://www.codecademy.com">https://www.codecademy.com</a></strong>
+                        <ul>
+                            <li>Learn ReactJS: Part I</li>
+                        </ul>
+                        <strong>Kindle</strong>
+                        <ul>
+                            <li>Over 100 technical books on advanced Microsoft subjects like multi-threaded programming, defensive programming, asp.net, angularjs, refactoring, OOP OOJS, OOD, TDD etc.
+                            </li>
+                        </ul>
+                    </detail>
                 </section>
         </div>
     </main>
