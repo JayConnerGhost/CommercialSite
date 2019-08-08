@@ -1,0 +1,9 @@
+.imageList {
+    text-decoration: none;
+    list-style: none;
+}
+
+.imageList>li>img {
+    height: 100px;
+    width: 100px;
+}
