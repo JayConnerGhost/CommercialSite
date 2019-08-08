@@ -4,7 +4,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {
   MatIconModule,
-  MatToolbarModule
+  MatToolbarModule,
+  MatSidenavModule
 }
 from  '@angular/material';
 
@@ -14,11 +15,15 @@ from  '@angular/material';
   imports: [
     CommonModule,
     MatIconModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatSidenavModule,
+    BrowserAnimationsModule
   ],
   exports:[
     MatIconModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatSidenavModule,
+    BrowserAnimationsModule
   ]
 
 })
