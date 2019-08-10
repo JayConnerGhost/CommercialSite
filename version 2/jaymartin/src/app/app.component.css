@@ -1,12 +1,13 @@
 body,
 html {
-    margin: 0;
+    margin: 4;
     height: 100vh;
 }
 
 body {
     min-height: 100vh;
     background: black;
+    margin: 4vh;
 }
 
 a {
