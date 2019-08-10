@@ -5,7 +5,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {
   MatIconModule,
   MatToolbarModule,
-  MatSidenavModule
+  MatSidenavModule,
+  MatListModule,
+  MatDividerModule,
+  MatTabsModule
 }
 from  '@angular/material';
 
@@ -17,13 +20,19 @@ from  '@angular/material';
     MatIconModule,
     MatToolbarModule,
     MatSidenavModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatListModule,
+    MatDividerModule,
+    MatTabsModule
   ],
   exports:[
     MatIconModule,
     MatToolbarModule,
     MatSidenavModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatListModule,
+    MatDividerModule,
+    MatTabsModule
   ]
 
 })

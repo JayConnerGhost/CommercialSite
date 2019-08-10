@@ -1,0 +1,20 @@
+a {
+    color: aliceblue;
+}
+
+a:active {
+    color: blanchedalmond;
+}
+
+a:hover {
+    color: burlywood;
+}
+
+ul {
+    text-emphasis: none;
+    text-decoration: none;
+}
+
+.tech-image {
+    height: 100px;
+}

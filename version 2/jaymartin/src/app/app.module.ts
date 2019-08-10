@@ -12,6 +12,8 @@ import { HeaderComponent } from './navigation/header/header.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
 import { MaterialModule } from './material/material.module';
 import {FlexLayoutModule} from '@angular/flex-layout';
+import { SiteExplanationComponent } from './welcome/site-explanation/site-explanation.component';
+import { WelcomeMessageComponent } from './welcome/welcome-message/welcome-message.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import {FlexLayoutModule} from '@angular/flex-layout';
     WinformsComponent,
     CvComponent,
     HeaderComponent,
-    SidenavListComponent
+    SidenavListComponent,
+     SiteExplanationComponent,
+    WelcomeMessageComponent
   ],
   imports: [
     BrowserModule,
