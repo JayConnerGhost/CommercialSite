@@ -1,0 +1,26 @@
+a {
+    color: aliceblue;
+}
+
+a:active {
+    color: blanchedalmond;
+}
+
+a:hover {
+    color: burlywood;
+}
+
+ul {
+    text-emphasis: none;
+    text-decoration: none;
+}
+
+ul>li {
+    text-emphasis: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.tech-image {
+    height: 100px;
+}
